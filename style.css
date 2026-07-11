@@ -1,0 +1,377 @@
+* {
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: rgb(143, 144, 145);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0px;
+    max-width: 1200px;
+    margin: auto;
+}
+.logo {
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+.logo-f {
+    color: #fd6e0a;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+.cmmon-btn {
+    background-color: #fd6e0a;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cmmon-btn-contact {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    cursor: pointer;
+}
+
+.hero-left-btn-parent {
+    margin-top: 12px;
+}
+
+section.root {
+    background-image: url("images/header_bg.png");
+}
+
+/****************************************About-Section *********************************************/
+.about-me {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 100px 0 30px;
+}
+
+.about-pera {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555;
+}
+
+.about-all-pera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+    text-align: center;
+}
+
+.about-all-pera h4 {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.about-all-pera h3 {
+    font-size: 18px;
+    color: #222;
+}
+
+/* About-end */
+
+
+/* What I do */
+.what {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.what h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.what-pera {
+    text-align: center;
+    color: #555;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.what-i-do-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.what-i-do-card {
+    flex: 1;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    transition: .3s;
+}
+
+.what-i-do-card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+}
+
+.what-i-do-card img {
+    width: 60px;
+    margin: 0 auto 20px;
+}
+
+.what-i-do-card h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.what-i-do-card p {
+    color: #666;
+    line-height: 26px;
+}
+
+/* What I do - end */
+/* A summary of My Rusume */
+.a-summary {
+    text-align: center;
+    font-size: 40px;
+    margin: 120px 0 60px;
+}
+
+.container-box {
+    width: 100%;
+}
+
+.all-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.summary-pera {
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 25px;
+}
+
+.summary-pera h2:first-child {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.summary-pera h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.summary-pera h2 {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.summary-pera p {
+    color: #666;
+    line-height: 28px;
+}
+
+.btn {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.dwonlod-cv {
+    padding: 15px 30px;
+    background: #fd6e0a;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-1 {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* A summary of My Rusume-end */
+/* My Amazing Work */
+.my-amazing {
+    padding: 80px 0;
+}
+
+.btn-1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.photo div {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
+}
+
+.photo img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    transition: .4s;
+}
+
+.photo img:hover {
+    transform: scale(1.08);
+}
+
+
+/*  A summary of My Rusume-end
+  */
+
+footer {
+    text-align: center;
+    margin-top: 70px !important;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #c7c5c3;
+    padding: 20px;
+    border-radius: 10px
+}
+
+/* photo */
+/* My Amazing Works */
+.my-amazing {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.my-amazing h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #222;
+}
+
+/* Gallery */
+.photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.photo div {
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.photo img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+    transition: 0.4s ease;
+}
+
+.photo img:hover {
+    transform: scale(1.08);
+}
+
+/* Footer */
+.footer-content{
+    text-align: center;
+    margin-top: 70px !important;
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+    background: color #fff8f3;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer form inputP{
+    outline: none;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 8px;
+
+}
+
+
+
+
+
+
+
+
+/* .footer-content{
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+}
+
+.footer-left,
+.footer-right{
+    width:48%;
+}
+
+. icon{
+    display:flex;
+    gap:15px;
+    margin-top:20px;
+} */

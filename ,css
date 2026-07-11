@@ -1,0 +1,24 @@
+eader {
+    background-color: ;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 12px 0;
+}
+.logo {
+    font-weight: bold;
+    font-size: 32px;
+}
+.logo-f {
+    color: #fd6e0a;
+}
+.ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+
+}
