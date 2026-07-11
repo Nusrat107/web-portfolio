@@ -80,7 +80,11 @@ ul {
 }
 
 section.root {
-    background-image: url("images/header_bg.png");
+    background-image: url("./images/header_bg.png");
+    background-repeat: no-repeat !important;
+    background-size: cover;
+     background-size: contain;
+     background-position: bottom right;
 }
 
 /****************************************About-Section *********************************************/
@@ -349,7 +353,7 @@ footer form inputP{
     border-radius: 8px;
     display: block;
     margin-bottom: 8px;
-
+    
 }
 
 
@@ -370,7 +374,7 @@ footer form inputP{
     width:48%;
 }
 
-. icon{
+.icon{
     display:flex;
     gap:15px;
     margin-top:20px;
